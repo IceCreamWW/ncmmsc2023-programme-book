@@ -11,7 +11,7 @@ This project facilitates the generation of the conference programme book in two 
 1. Execute the following command to generate LaTeX files for the programme book:
 
 ```bash
-python make_tex.py --excel assets/TechnicalProgram.xlsx --workspace assets/Tex
+python make_tex.py --excel assets/TechnicalProgram.xlsx --tex assets/Tex
 ```
 
 2. After running the command, upload the generated files located in `assets/Tex` to your Overleaf project template.
@@ -21,7 +21,7 @@ python make_tex.py --excel assets/TechnicalProgram.xlsx --workspace assets/Tex
 1. To generate the HTML version of the programme book, run:
 
 ```bash
-python make_html.py --excel assets/TechnicalProgram.xlsx --workspace assets/index.html
+python make_html.py --excel assets/TechnicalProgram.xlsx --html assets/index.html
 ```
 
 2. Then, ensure that the PDF files of the papers are placed in `assets/pdfs` so that the links in `assets/index.html` are functional.
